@@ -1,0 +1,27 @@
+{
+    "name": "explorer-ir",
+    "version": "0.0.0",
+    "description": "ir extension for explorer robot",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "shims.d.ts",
+        "enums.d.ts",
+        "explorerIR.cpp",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "TransmitterIR.cpp",
+        "TransmitterIR.h",
+        "_locales/zh/explorer-ir-strings.json",
+        "_locales/zh/explorer-ir-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+        ],
+    "public": true,
+    "license": "MIT"
+}
