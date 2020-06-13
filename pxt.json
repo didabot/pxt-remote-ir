@@ -2,6 +2,7 @@
     "name": "modou-ir",
     "version": "0.0.1",
     "description": "ir extension for explorer robot",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
         "radio": "*"
@@ -22,6 +23,5 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": true,
-    "license": "MIT"
+    "public": true
 }
