@@ -1,5 +1,5 @@
 {
-  "Explorer_IR.onPressEvent|block": "on button |%btn| pressed",
+  "Modou_IR.onPressEvent|block": "on button |%btn| pressed",
   "Explorer_IR|block": "Explorer_IR",
   "RemoteButton.Asterisk|block": "Asterisk",
   "RemoteButton.Down|block": "Down",
@@ -18,5 +18,5 @@
   "RemoteButton.Two|block": "Two",
   "RemoteButton.Up|block": "Up",
   "RemoteButton.Zero|block": "Zero",
-  "{id:category}Explorer_IR": "Explorer_IR",
+  "{id:category}Explorer_IR": "Explorer_IR"
 }

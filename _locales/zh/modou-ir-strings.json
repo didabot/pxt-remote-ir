@@ -1,6 +1,6 @@
 {
-  "Explorer_IR.onPressEvent|block": "当按键 |%btn| 被按下时",
-  "Explorer_IR|block": "探索者-遥控",
+  "Modou_IR.onPressEvent|block": "当按键 |%btn| 被按下时",
+  "Modou_IR|block": "墨豆-遥控",
   "RemoteButton.Asterisk|block": "*",
   "RemoteButton.Down|block": "下",
   "RemoteButton.Eight|block": "8",
@@ -18,5 +18,5 @@
   "RemoteButton.Two|block": "2",
   "RemoteButton.Up|block": "上",
   "RemoteButton.Zero|block": "0",
-  "{id:category}Explorer_IR": "探索者-遥控"
+  "{id:category}Modou_IR": "墨豆-遥控"
 }

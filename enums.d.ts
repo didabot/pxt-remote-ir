@@ -61,7 +61,7 @@
     //% block=Ok
     Ok = 28,
     }
-declare namespace Explorer_IR {
+declare namespace Modou_IR {
 }
 
 // Auto-generated. Do not edit. Really.
