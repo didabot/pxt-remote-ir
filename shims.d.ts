@@ -2,7 +2,7 @@
 
 
 
-    //% color=#5b78fa weight=10 
+    //% color=#009ede weight=10 
     //% icon="\uf1eb"
 declare namespace Modou_IR {
 

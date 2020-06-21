@@ -66,7 +66,7 @@ enum class RemoteButton
   Ok = 28
 };
 
-//% color=#5b78fa weight=10 
+//% color=#009ede weight=10 
 //% icon="\uf1eb"
 namespace Modou_IR { 
   map<RemoteButton, vA> actions;
