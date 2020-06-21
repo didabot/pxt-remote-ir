@@ -1,6 +1,6 @@
 {
     "name": "modou-ir",
-    "version": "0.0.3",
+    "version": "1.0.1",
     "description": "ir extension for modou robot",
     "license": "MIT",
     "dependencies": {
