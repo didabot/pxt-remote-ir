@@ -1,6 +1,6 @@
 # explorer-ir
 
-ir extension for explorer robot
+ir extension for modou robot
 
 ## Usage
 

@@ -110,11 +110,11 @@ namespace Modou_IR {
     tsb.start(); //interrupt timer for debounce
     create_fiber(monitorIR);
   }  
-
+  
   /**
   * set button pressed event handler.
   */
-  //% blockId=explorer_ir_button_pressed_event
+  //% blockId=modou_ir_button_pressed_event
   //% block="on button |%btn| pressed"
   void onPressEvent(RemoteButton btn, Action body) {
     static bool inited = false;

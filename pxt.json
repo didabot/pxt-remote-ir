@@ -1,7 +1,7 @@
 {
     "name": "modou-ir",
     "version": "0.0.2",
-    "description": "ir extension for explorer robot",
+    "description": "ir extension for modou robot",
     "license": "MIT",
     "dependencies": {
         "core": "*",
@@ -9,8 +9,8 @@
     },
     "files": [
         "README.md",
-        "shims.d.ts",
         "enums.d.ts",
+        "shims.d.ts",
         "modouIR.cpp",
         "ReceiverIR.cpp",
         "ReceiverIR.h",

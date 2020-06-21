@@ -1,13 +1,18 @@
-//% color=#5b78fa weight=10 
-//% icon="\uf1eb"
-namespace test_IR { 
+
+//% color=#009ede icon="\uf110"
+namespace Modou_IR_T {
+    
+    //% advanced=true shim=Modou_IR::onPressEvent
+    function onPressEvent(btn: RemoteButton, body: Action): void {
+        return;
+    }
+
     /**
      * set button pressed event handler.
      */
-    //% advanced=true
-    //% block="test function"
-    export function testFunc(a: number): void {
-    
-    }
-
+    //% blockId=modou_ir_button_pressed_event_user
+    //% block="on button |%btn| pressed"
+    export function onPressEventUser(btn: RemoteButton, body: Action): void { 
+            onPressEvent(btn, body);       
+        }
 }
