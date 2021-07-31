@@ -105,9 +105,14 @@ namespace Modou_IR {
     }
   }
 
+  /**
+  * initialize ir module.
+  */
+  //% blockId=modou_ir_set_port
+  //% block="connect ir to port |%pin|"
   void initIR(Pins pin){
     rx = new ReceiverIR((PinName)pin);
-    tsb.start(); //interrupt timer for debounce
+    tsb.start(); 
     create_fiber(monitorIR);
   }  
   
@@ -116,13 +121,7 @@ namespace Modou_IR {
   */
   //% blockId=modou_ir_button_pressed_event
   //% block="on button |%btn| pressed"
-  void onPressEvent(RemoteButton btn, Action body) {
-    static bool inited = false;
-    if (!inited) {
-      initIR(Pins::P2);
-      inited = true;
-    }
-
+  void onPressEvent(RemoteButton btn, Action body) {   
     if(actions.find(btn) == actions.end()) {
         vector<Action> act;
         actions[btn] = act;

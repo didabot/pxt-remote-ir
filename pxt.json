@@ -5,7 +5,7 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "microphone": "*"
     },
     "files": [
         "README.md",
@@ -15,8 +15,6 @@
         "ReceiverIR.cpp",
         "ReceiverIR.h",
         "RemoteIR.h",
-        "TransmitterIR.cpp",
-        "TransmitterIR.h",
         "_locales/modou-ir-strings.json",
         "_locales/modou-ir-jsdoc-strings.json",
         "_locales/zh/modou-ir-strings.json",
