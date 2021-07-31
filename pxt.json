@@ -11,7 +11,7 @@
         "README.md",
         "enums.d.ts",
         "shims.d.ts",
-        "modouIR.cpp",
+        "ir_receiver.cpp",
         "ReceiverIR.cpp",
         "ReceiverIR.h",
         "RemoteIR.h",

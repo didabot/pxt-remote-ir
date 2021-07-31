@@ -1,4 +1,4 @@
 {
-  "Modou_IR.initIR": "initialise ir module",
-  "Modou_IR.onPressEvent": "set button pressed event handler."
+  "IR.initIR": "initialise ir module",
+  "IR.onPressEvent": "set button pressed event handler."
 }

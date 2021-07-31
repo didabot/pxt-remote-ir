@@ -1,4 +1,4 @@
 {
-  "Modou_IR.initIR": "设置红外模块连接的端口",
-  "Modou_IR.onPressEvent": "当遥控器按键被按下时."
+  "IR.initIR": "设置红外模块连接的端口",
+  "IR.onPressEvent": "当遥控器按键被按下时."
 }

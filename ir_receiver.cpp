@@ -68,7 +68,7 @@ enum class RemoteButton
 
 //% color=#009ede weight=10 
 //% icon="\uf1eb"
-namespace Modou_IR { 
+namespace IR { 
   map<RemoteButton, vA> actions;
   map<RemoteButton, uint32_t> lastact;
   Timer tsb; 

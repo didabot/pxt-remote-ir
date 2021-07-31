@@ -1,7 +1,7 @@
 {
-  "Modou_IR.initIR|block": "连接红外接收模块到|%pin|",
-  "Modou_IR.onPressEvent|block": "当遥控器按键|%btn|被按下时",
-  "Modou_IR|block": "红外遥控",
+  "IR.initIR|block": "连接红外接收模块到|%pin|",
+  "IR.onPressEvent|block": "当遥控器按键|%btn|被按下时",
+  "IR|block": "红外遥控",
   "RemoteButton.Asterisk|block": "*",
   "RemoteButton.Down|block": "下",
   "RemoteButton.Eight|block": "8",
@@ -19,5 +19,5 @@
   "RemoteButton.Two|block": "2",
   "RemoteButton.Up|block": "上",
   "RemoteButton.Zero|block": "0",
-  "{id:category}Modou_IR": "红外遥控"
+  "{id:category}IR": "红外遥控"
 }

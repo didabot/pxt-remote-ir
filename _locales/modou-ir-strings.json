@@ -1,7 +1,7 @@
 {
-  "Modou_IR.initIR|block": "connect ir receiver to port |%pin|", 
-  "Modou_IR.onPressEvent|block": "on button |%btn| pressed",
-  "Modou_IR|block": "Remote IR",
+  "IR.initIR|block": "connect ir receiver to port |%pin|", 
+  "IR.onPressEvent|block": "on button |%btn| pressed",
+  "IR|block": "Remote IR",
   "RemoteButton.Asterisk|block": "Asterisk",
   "RemoteButton.Down|block": "Down",
   "RemoteButton.Eight|block": "Eight",
